@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+
+<h1>Простой счетчик</h1>
+
+<h2>@Model.Count</h2>
+
+<form method="post">
+
+    <button asp-page-handler="Add">
+        Нажать
+    </button>
+
+    <button asp-page-handler="Reset">
+        Сбросить
+    </button>
+
+</form>
